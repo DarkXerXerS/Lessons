@@ -5,23 +5,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./style2.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 <body>
   <main class="main-section">
+    <!-- <h1>Please enter your biodata</h1> -->
     <form onsubmit="alert('YOUR DATA HAS BEEN RECORDED')" method="get">
+      <h1>Please enter your biodata:</h1>
     <input type="text" name="user-name" placeholder="First-name" required><br>
-    <input type="text" name="user-name" placeholder="Last-Nmae" required><br>
+    <input type="text" name="user-name" placeholder="Last-Name" required><br>
     <input type="email" name="user-name" placeholder="Email Address" required><br>
     <input type="number" name="user-name" placeholder="Phone-Number" step="1" required><br>
     <input type="password" name="user-name" placeholder="Password" required><br>
-    <fieldset>
-      <p>What'S Your Gender:</p>
-    <label for="gender">Female  </label>
-    <input type="radio" id="gender" placeholder="Gender">
-    <label for="gender">Male</label>
-    <input type="radio" id="gender">
-    </fieldset><br>
+    <label for="gender">What Your Gender:</label>
+    <input type="text" id="gender" list="genders" name="gender">
+    <datalist id="genders">
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="other">Others</option>
+    </datalist>
     <input type="submit" value="submit">
       </form>
   </main>

@@ -2,4 +2,48 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
+
+html,
+ body {
+    background-image: url(./intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+    background-color: rgb(245, 220, 182);
+    overflow: hidden;
+ }
+
+ .main-section {
+    border: 1px solid rgb(121, 114, 114);
+    display: flex;
+    justify-content: center;
+    margin: 20px 400px;
+    background-color: rgb(31, 232, 232);
+    border-radius: 12px;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.3)
+ }
+ h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+ }
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+    
+}
+ input {
+    padding: 10px;
+    margin: 8px;
+    width: 110%;
+    border-radius: 6px;
+    border: none;
+    text-transform: uppercase;
+ }
+
+ input:hover {
+    border: 2px solid palevioletred;
+    
+ }
