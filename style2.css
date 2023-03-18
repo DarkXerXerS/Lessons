@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -17,14 +17,12 @@ html,
     display: flex;
     justify-content: center;
     margin: 20px 400px;
-    /* background-color: rgb(31, 232, 232); */
     border-radius: 12px;
     box-shadow: 10px 9px 9px rgba(0, 0, 0, 0.3)
  }
  h1 {
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
-    /* opacity: 0.5; */
     color: grey;
  }
 
@@ -53,4 +51,7 @@ form {
  .submit {
     width: 50%;
 
- }
+ } */
+
+
+ /* NEW CSS CODE FOR NEW FORM */
