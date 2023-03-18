@@ -63,7 +63,7 @@ form {
  }
 
  body {
-   background-color: rgb(4, 32, 4);
+   background-color: rgb(1, 14, 6);
  
  }
 
@@ -74,7 +74,6 @@ padding: 10px;
   h1 {
    text-align: center;
    color: beige;
-   /* padding: 12px; */
    font-family: 'Heebo', sans-serif;
    font-weight: 700;
    font-size: 35px;
@@ -91,14 +90,19 @@ h2 {
 }
 
 .section2 {
-   margin: 12px;
-   border: 2px solid beige;
+   margin: 19px;
+   border: 1px solid beige;
    padding: 15px;
+   border-radius: 8px;
+   opacity: 0.1px;
+   /* background-color: #090717; */
+   background-color: rgb(21, 20, 20);
+   box-shadow: 10px 9px  9px rgba(151, 128, 128, 0.3)
 }
 
 h3 {
    color: beige;
-   font-size: 20px;
+   font-family: 'Heebo', sans-serif;
 }
  h3 span {
    opacity: 0.5;
@@ -106,12 +110,12 @@ h3 {
 
  form {
    padding: 10px;
-   /* margin: 20px; */
  }
 
  label {
-   color: rgb(201, 201, 198);
-
+   color: gray;
+   text-transform: uppercase;
+   font-weight: 900;
  }
 
  input {
@@ -121,7 +125,109 @@ h3 {
    margin-right: 0px;
    margin-top: 15px;
    margin-bottom: 10px;
+   background-color: rgb(204, 175, 175);
+   border: none;
+   border-radius: 10px;
  }
 
+ input[placeholder] {
+   color: antiquewhite;
+ }
+
+ @media screen and (min-width: 700px) {
+    article p {
+      padding: 10px;
+    }
+    .section2 {
+      margin: 30px;
+      padding: 25px;
+      margin-top: 90px;
+   }
+
+   h3 {
+      text-align: center;
+   }
+
+   form {
+      padding: 20px;
+      
+    }
+    input {
+      width: 90%;
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      background-color: rgb(204, 175, 175);
+      border: none;
+      border-radius: 10px;
+    }
+ }
+
+ @media screen and (min-width: 1000px) {
+ body {
+   display: flex;
+ }
+ .section1 {
+   height: 400px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-top: 100px;
+   /* border: 1px solid grey; */
+   border-radius: 10px;
+   margin-left: 100px;
+   /* padding: 70px 0px; */
+ }
+
+ h1 {
+   font-size: 50px;
+   text-align: left;
+ }
+
+ h2{
+   text-align: left;
+   color: aliceblue;
+   font-family: 'Heebo', sans-serif;
+ }
+
+ p {
+   text-align: left;
+   color: aliceblue;
+   font-family: 'Heebo', sans-serif;
+ }
+
+
+ .section2 {
+   height: 92vh;
+   margin: 23px 200px;
+   border: 1px solid beige;
+   padding: 25px 15px;
+   border-radius: 8px;
+   opacity: 0.1px;
+   box-shadow: 10px 9px  9px rgba(151, 128, 128, 0.3);
+   width: 100%;
+}
+ 
+ form {
+   padding: 1px;
+ }
+
+ input {
+   padding: 13px;
+   width: 100%;
+   margin-top: 15px;
+   margin-bottom: 10px;
+   background-color: rgb(204, 175, 175);
+   border: none;
+   border-radius: 10px;
+ }
+  input:hover {
+   cursor: pointer;
+   color: black;
+  }
+
+ }
 
 
