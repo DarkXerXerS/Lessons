@@ -62,7 +62,15 @@
   <label for="number">Phone Number:</label>
   <input type="number" id="number" name="user-name" placeholder="+234-000-000-000" required>
   <label for="gender">Gender:</label>
-  
+  <input type="text" id="gender" list="genders" name="gender" required>
+  <datalist id="genders">
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+  <option value="Others">Others</option>
+  </datalist>
+  <label for="user-password">Password:</label>
+  <input type="password" id="user-password" name="user-name" placeholder="User-password" required>
+  <input type="submit" value="submit">
 </form>   
   </section>
 </body>
