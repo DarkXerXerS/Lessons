@@ -43,34 +43,50 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./style2.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <section> 
+  <section class="section1"> 
     <h1>Side Hustle Internship</h1>
     <article>
       <h2>About</h2>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae sequi quisquam, ad dolor eaque iure illum dignissimos magni veritatis consequatur. Laborum optio, maxime et eos rem sunt possimus ipsa quo suscipit praesentium, odio iure sapiente adipisci? Qui, alias unde magni quaerat laboriosam non, accusantium consequuntur voluptatibus neque sint, fugiat dicta.</p>
     </article>
   </section>
-  <section>
-<h2> Week2 Task ---- <span>Styling Registration Form</span></h2> 
+  <section class="section2">
+<h3> Week2 Task ---- <span>Styling Registration Form</span></h3> 
 <form onsubmit="alert('Your Biodata Has Been Recorded')">
   <label for="name">Name:</label>
+  <br>
   <input type="text" id="name" name="user-name" placeholder="First-name" required>
+  <br>
   <label for="email">Email Address: </label>
+  <br>
   <input type="email" id="email" name="user-name" placeholder="example@gmail.com" required>
+  <br>
   <label for="number">Phone Number:</label>
+  <br>
   <input type="number" id="number" name="user-name" placeholder="+234-000-000-000" required>
+  <br>
   <label for="gender">Gender:</label>
-  <input type="text" id="gender" list="genders" name="gender" required>
+  <br>
+  <input type="text" id="gender" list="genders" name="gender" required placeholder="Select Gender">
+  <br>
   <datalist id="genders">
   <option value="male">Male</option>
   <option value="female">Female</option>
   <option value="Others">Others</option>
   </datalist>
+  <br>
   <label for="user-password">Password:</label>
+  <br>
   <input type="password" id="user-password" name="user-name" placeholder="User-password" required>
+  <br>
   <input type="submit" value="submit">
+  
 </form>   
   </section>
 </body>
